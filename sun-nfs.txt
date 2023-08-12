@@ -1,0 +1,13 @@
+Install NFS Server:
+    sudo apt-get update
+    sudo apt-get install nfs-kernel-server
+
+Configure Exports(/etc/exports):
+    /path/to/share 192.168.1.0/24(rw,sync,no_subtree_check)
+
+
+Install NFS Client:
+    sudo apt-get install nfs-common
+
+Mount NFS Shares:
+    sudo mount <server_ip>:/path/to/share /mount/point

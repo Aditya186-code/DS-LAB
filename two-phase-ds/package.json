@@ -1,0 +1,16 @@
+{
+  "name": "two-phase-ds",
+  "version": "1.0.0",
+  "description": "",
+  "main": "coordinator.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "coordinator": "nodemon coordinator.js",
+    "participant": "nodemon participant.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
